@@ -43,6 +43,7 @@ def add_note(request):
             note.user = request.user
             note.save()
             return redirect('view_notes')  # Redirect to add_note after adding a note
+        
         """
     Render the 'add_note.html' template with the specified form.
 

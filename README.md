@@ -57,3 +57,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
  - Inspiration: Django Documentation
  - Bootstrap theme: Bootstrap
 Happy note-taking!
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6da704141d510b5f60251277444ab97e246d6c7a

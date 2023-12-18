@@ -43,17 +43,6 @@ def add_note(request):
             note.user = request.user
             note.save()
             return redirect('view_notes')  # Redirect to add_note after adding a note
-        
-        """
-    Render the 'add_note.html' template with the specified form.
-
-    Parameters:
-    - request (HttpRequest): The HTTP request object.
-    - form: The form to be displayed in the template.
-
-    Returns:
-    HttpResponse: Rendered HTML response with the 'add_note.html' template and the form.
-    """
     else:
         form = NoteForm()
     return render(request, 'add_note.html', {'form': form})
